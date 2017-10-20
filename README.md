@@ -91,3 +91,14 @@ Now that you have a working SSH key git clone should succeed. Please try it!
 3. Commit it!
 
 ```$ git commit -m "Hello world example"```
+
+## Viewing commit history
+
+1. Viewing all commits
+
+    ```$ git log```
+
+2. Viewing details for a specific commit
+
+    ```$ git show <commit-hash>```
+
