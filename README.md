@@ -29,3 +29,26 @@ Depends on tool actually used, fairly similar for most. (Somewhere in your accou
 The private part of the SSH key is _your_ secret. Protect at all times!
 
 The public key is used to identify you. Share it!
+
+### Clone again!
+Now that you have a working SSH key git clone should succeed. Please try it!
+
+## Adding things to git
+
+1. Check current status in repository
+    ```$ git status```
+
+2. Create a directory
+    ```$ mkdir your.name```
+    ```$ cd your.name```
+    ```$ git status```
+
+3. Create a new file
+    ```$ touch hello.txt```
+    ```$ git status```
+
+
+
+
+
+
