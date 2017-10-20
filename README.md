@@ -11,6 +11,10 @@ Git must be configured to know who you are. This is done using the ```git config
 
 ## Cloning repositories
 
+Let's clone, grab a complete copy of, a git repository
+
+TODO: Replace with actual example repository
+```git clone ssh://git@github.com:Diabol/simple-git.git```
 
 
 
