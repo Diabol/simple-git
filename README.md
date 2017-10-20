@@ -35,24 +35,28 @@ Now that you have a working SSH key git clone should succeed. Please try it!
 
 ## Adding things to git
 1. Check current status in repository
-   
-   ```$ git status```
+    
+    ```$ git status```
 
 2. Create a directory
-   
-   ```$ mkdir your.name```
-   ```$ cd your.name```
-   ```$ git status```
+
+    ```$ mkdir your.name```
+
+    ```$ cd your.name```
+
+    ```$ git status```
 
 3. Create a new file
-   
-   ```$ touch hello.txt```
-   ```$ git status```
+
+    ```$ touch hello.txt```
+ 
+    ```$ git status```
 
 4. Add file to git
 
-   ```$ git add hello.txt```
-   ```$ git status```
+    ```$ git add hello.txt```
+    
+    ```$ git status```
 
 ## Committing things to git
 
