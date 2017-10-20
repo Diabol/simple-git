@@ -102,3 +102,8 @@ Now that you have a working SSH key git clone should succeed. Please try it!
 
     ```$ git show <commit-hash>```
 
+3. Referencing historical commits
+
+    ```$ git show HEAD~1```
+
+## 
