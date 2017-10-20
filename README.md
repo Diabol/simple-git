@@ -23,17 +23,21 @@ TODO: Replace with actual example repository
 ```$ ssh-keygen -b 4096 -C "your.name@your.company"```
 
 #### Install your public SSH key to your central git server
+
 Depends on tool actually used, fairly similar for most. (Somewhere in your account preferences)
 
 #### Public/Private parts of an SSH Key
+
 The private part of the SSH key is _your_ secret. Protect at all times!
 
 The public key is used to identify you. Share it!
 
 ### Clone again!
+
 Now that you have a working SSH key git clone should succeed. Please try it!
 
 ## Adding things to git
+
 1. Check current status in repository
     
     ```$ git status```
@@ -65,6 +69,7 @@ Now that you have a working SSH key git clone should succeed. Please try it!
 ```$ git status```
 
 ## Changing things in git
+
 1. Editing and diffing changes
 
    ```$ echo "Hello, world!" > hello.txt```
