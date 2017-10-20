@@ -34,21 +34,37 @@ The public key is used to identify you. Share it!
 Now that you have a working SSH key git clone should succeed. Please try it!
 
 ## Adding things to git
-
 1. Check current status in repository
-    ```$ git status```
+   ```$ git status```
 
 2. Create a directory
-    ```$ mkdir your.name```
-    ```$ cd your.name```
-    ```$ git status```
+   ```$ mkdir your.name```
+   ```$ cd your.name```
+   ```$ git status```
 
 3. Create a new file
-    ```$ touch hello.txt```
-    ```$ git status```
+   ```$ touch hello.txt```
+   ```$ git status```
 
+4. Add file to git
+   ```$ git add hello.txt```
+   ```$ git status```
 
+## Committing things to git
+```$ git commit -m "My first commit"```
+```$ git status```
 
+## Changing things in git
+1. Editing and diffing changes
+   ```$ echo "Hello, world!" > hello.txt```
+   ```$ git status```
+   ```$ git diff```
 
+2. Adding and diffing changes
+   ```$ git add hello.txt```
+   ```$ git status```
+   ```$ git diff```
+   ```$ git diff --staged```
 
-
+3. Commit it!
+```$ git commit -m "Hello world example"```
