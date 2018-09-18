@@ -203,7 +203,7 @@ $ git status
 
     ```$ git log --graph --pretty=format:'%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit --date=local```
 
-5. This is a rally long command so let's add this as an alias 'l', by doing:
+5. This is a very long command so let's add this as an alias 'l', by doing:
 
     ```$ git config --global --add alias.l "log --graph --pretty=format:'%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit --date=local"```
 
