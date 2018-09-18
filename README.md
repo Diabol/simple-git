@@ -199,6 +199,18 @@ $ git status
 
     ```$ git show HEAD~1```
 
+4. A really nice colorized tree view: 
+
+    ```$ git log --graph --pretty=format:'%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit --date=local```
+
+5. This is a rally long command so let's add this as an alias 'l', by doing:
+
+    ```$ git config --global --add alias.l "log --graph --pretty=format:'%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit --date=local"```
+
+    Now you can just do:
+
+    ```$ git l```
+
 ## Branches in git
 
 Everything is a branch!
