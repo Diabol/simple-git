@@ -199,6 +199,18 @@ $ git status
 
     ```$ git show HEAD~1```
 
+4. A really nice colorized tree view: 
+
+    ```$ git log --graph --pretty=format:'%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit --date=local```
+
+5. This is a very long command, so let's add this as an _alias_ 'tree-log', by doing:
+
+    ```$ git config --global --add alias.tree-log "log --graph --pretty=format:'%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit --date=local"```
+
+    Now you can just do:
+
+    ```$ git tree-log```
+
 ## Branches in git
 
 Everything is a branch!
